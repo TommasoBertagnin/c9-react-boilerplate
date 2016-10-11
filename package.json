@@ -1,13 +1,13 @@
 {
-  "name": "react-intro-workshop",
+  "name": "c9-react",
   "private": "true",
   "version": "1.0.0",
-  "description": "Workspace for the Intro to React.js workshop",
+  "description": "C9 setup for React.js development",
   "scripts": {
     "start": "$(npm root)/.bin/webpack-dev-server --progress --inline --hot",
     "shrinkwrap": "npm shrinkwrap --dev"
   },
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Tommaso Bertagnin (http://github.com/tommasobertagnin)",
   "license": "CC0-1.0",
   "devDependencies": {
     "babel-core": "6.4.5",
@@ -17,6 +17,8 @@
     "babel-preset-react-hmre": "1.0.1",
     "css-loader": "0.23.1",
     "eventsource-polyfill": "0.9.6",
+    "less": "2.7.1",
+    "less-loader": "2.2.3",
     "style-loader": "0.13.0",
     "webpack": "1.12.12",
     "webpack-dev-server": "1.14.1"

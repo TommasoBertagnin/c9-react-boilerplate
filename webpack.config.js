@@ -7,7 +7,7 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
     'normalize.css',
-    './src/styles/app.css',
+    './src/styles/app.less',
     'eventsource-polyfill', // necessary for hot reloading with IE
     './src/index'
   ],
@@ -25,8 +25,8 @@ module.exports = {
         presets: [ 'es2015', 'react', 'react-hmre' ]
       }
     }, {
-      test: /\.css$/,
-      loaders: ['style', 'css'],
+      test: /\.(less|css)$/,
+      loader: "style!css!less"
     }]
   },
   resolve: {
