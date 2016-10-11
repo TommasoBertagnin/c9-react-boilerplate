@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default React.createClass({
-  render: function () {
+export default class App extends React.Component {
+  render() {
     return (
       <div>
         Welcome to React!
       </div>
     );
   }
-});
+}
